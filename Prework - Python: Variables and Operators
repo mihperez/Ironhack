@@ -1,0 +1,121 @@
+#1.1 For the following variables, use the function type() from Python to check the data type for the variables.
+x1 = 1.1
+x2 = "Ironhack"
+x3 = "1.1"
+x4 = True
+x5 = "True"
+x6 = -1
+print (x1)
+type(x1)
+
+#1.1 For the following variables, use the function type() from Python to check the data type for the variables.
+x1 = 1.1
+x2 = "Ironhack"
+x3 = "1.1"
+x4 = True
+x5 = "True"
+x6 = -1
+print (x1)
+type(x1)
+​
+1.1
+float
+print(x2)
+type(x2)
+​
+Ironhack
+str
+print(x3)
+type(x3)
+1.1
+str
+4
+print(x4)
+type(x4)
+True
+bool
+print(x5)
+type(x5)
+print(x5)
+type(x5)
+True
+str
+6
+print(x6)
+type(x6)
+-1
+int
+2
+#1.2What is the difference between variables x1 and x3?
+​
+x1 = 1.1
+x3="1.1"
+x3_float = float(x3)
+result= x1-x3_float
+print(result)
+0.0
+#1.3What happens if you subtract x3 from x1?
+#An error since x3 is a string and x1 is a float
+ a string while x5 is a boolean
+#1.4 What is the difference between variables x4 and x5?
+#x4 is a string while x5 is a boolean
+#1.5 What happens if you subtract x5 from x4?
+#Aan error since x5 is a boolean and x4 is a string
+x1 = int(input("Please enter an integer number: ")) 
+x2 = int(input("Please enter another integer number: "))
+x1 = int(input("Please enter an integer number: ")) 
+x2 = int(input("Please enter another integer number: "))
+​
+Please enter an integer number: 29
+Please enter another integer number: 10
+ #2.0 What is the data type of x1 and x2? 
+#Intergers
+print(x1)
+type(x1)
+print(x2)
+type(x2)
+ #2.0 What is the data type of x1 and x2? 
+#Intergers
+print(x1)
+type(x1)
+print(x2)
+type(x2)
+29
+10
+int
+x1==x2
+#Check if the two variables are equal?
+x1==x2
+False
+x1>x2
+#Check if x1 is greater than x2?
+x1>x2
+True
+x2>x1
+#Check if x2 is greater than x1?
+x2>x1
+False
+!=x1
+#Check if x1 is not equal to x2?
+x2!=x1
+True
+#Store the difference between the two variables x1 and x2 in another variable x3 (subtract the smaller number from the larger number).
+x3=x1-x2
+print(x3)
+19
+1
+#Increment the smaller of the two variables (x1 and x2) with the difference.Use the shorthand addition operator for the same. Again check if x1 and x2 are equal or not?
+x2+x3==x1
+True
+#2.2 In the lesson, we talked about math library in Python. Here is a link to the math library documentation. Go through the documentation and try any 3 or more functions on a numerical variable that were not described in the lesson.
+pow(x2,2)
+​
+100
+import math 
+x1
+# print the square root of  x1 
+print(math.sqrt(x1)) 
+5.385164807134504
+x3
+math.factorial(x3)
+121645100408832000
